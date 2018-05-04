@@ -1,0 +1,19 @@
+{
+    "name": "owenliang1990/first-composer-package",
+    "description": "for private composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "owenliang",
+            "email": "120848369@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Owenliang1990\\FirstPackage\\": "src"
+        }
+    }
+}
